@@ -1,16 +1,42 @@
 h1{
-    font-family: monospace;
+font-family: monospace;
+
 }
 .container{
-    width: 150px;
-    height: 150px;
-    background-color: teal;
-    margin: 1px;
-    border-radius: 10px;
-   transition: all 2s ease-in-out;
-   border: 2px solid darkkhaki;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  flex-wrap: wrap;
+  width: 500px;
+
+ 
 }
 
-.container :hover{
-    background-color: turquoise;
+.box{
+    height: 150px;
+    width: 150px;
+    background-color: teal;
+    margin: 1px;
+    border-radius: 10;
+    transition: 2s;
+border: 2px solid darkkhaki;
+
+}
+:hover{
+background-color: turquoise;
+}
+.card{
+   background-color:aquamarine ;
+width: 200px;
+height: 200px;
+margin: 20px;
+}
+body{
+  display: flex;  
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
 }
